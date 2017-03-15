@@ -27,6 +27,16 @@
                         <span class='glyphicon glyphicon-th-list'></span> Fetch data
                     </a>
                 </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/meal-list']">
+                        <span class='glyphicon glyphicon-th-list'></span>View Meal List
+                    </a>
+                </li>
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/create-meal-list/step-1']">
+                        <span class='glyphicon glyphicon-th-list'></span>Create Meal List
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
